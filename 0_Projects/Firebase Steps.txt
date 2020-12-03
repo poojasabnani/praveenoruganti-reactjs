@@ -1,0 +1,12 @@
+## How to publish react app in Firebase
+
+npm install -g firebase-tools
+ 
+npm run build
+
+firebase login --reauth
+ 
+
+firebase init
+
+firebase deploy

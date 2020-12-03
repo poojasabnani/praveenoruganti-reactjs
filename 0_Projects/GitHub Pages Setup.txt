@@ -1,0 +1,15 @@
+## How to publish react app in GitHub pages
+
+npm install gh-pages --save-dev
+
+In package.json, add the below
+
+"homepage": "https://praveenoruganti.github.io/sample/" 
+ 
+In scripts add below
+ 
+"predeploy": "npm run build",
+
+"deploy": "gh-pages -d build"
+
+npm run deploy

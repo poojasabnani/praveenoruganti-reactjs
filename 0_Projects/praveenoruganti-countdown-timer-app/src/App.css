@@ -1,0 +1,77 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: url('./newyear.jpg') no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.App > p {
+	margin: 30vh 0 0;
+	font-size: 4rem;
+	font-family: 'Mountains of Christmas', cursive;
+	transition: all 0.2s;
+}
+
+.App__time,
+.App__labels {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 35%;
+	max-width: 70%;
+	font-family: 'Roboto Slab', serif;
+	transition: all 0.2s;
+}
+
+.App__time > h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	width: 50px;
+}
+
+.App__labels > h5 {
+	font-size: 2rem;
+	
+}
+
+@media (max-width: 600px) {
+	.App p {
+		font-size: 2.2rem;
+	}
+
+	.App__time {
+		font-size: 1rem;
+		width: 45%;
+	}
+
+	.App__labels {
+		font-size: 1rem;
+		width: 45%;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+	.App p {
+		font-size: 3rem;
+	}
+
+	.App__time {
+		font-size: 1.5rem;
+	}
+
+	.App__labels {
+		font-size: 1.4rem;
+	}
+}
