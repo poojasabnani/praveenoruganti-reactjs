@@ -22,4 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.vercel
+/.firebase
+.firebaserc
+firebase.json
+package-lock.json
+
+firebase-debug.log

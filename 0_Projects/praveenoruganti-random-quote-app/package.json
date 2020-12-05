@@ -1,5 +1,4 @@
 {
-  "homepage": "http://praveenoruganti.github.io/praveenoruganti-random-quote-app/",
   "name": "praveenoruganti-random-quote-app",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
