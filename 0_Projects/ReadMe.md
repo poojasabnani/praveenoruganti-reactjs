@@ -15,5 +15,6 @@ Here with my React JS Apps
 - [Quiz](https://praveenoruganti-quiz-app.firebaseapp.com/)
 - [Random Quote](https://praveen-random-quote-app.firebaseapp.com/)
 - [Tic Tac Toe](http://praveen-tic-tac-toe-app.firebaseapp.com/)
+- [Todo](http://praveenoruganti-todo-app.firebaseapp.com/)
 
 **Note:** I will continue to develop more React JS Apps and will update the same here going forward.
