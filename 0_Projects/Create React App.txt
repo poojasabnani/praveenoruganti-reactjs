@@ -1,3 +1,0 @@
-npx create-react-app sample
-npm install
-npm install autoprefixer@9.8.0

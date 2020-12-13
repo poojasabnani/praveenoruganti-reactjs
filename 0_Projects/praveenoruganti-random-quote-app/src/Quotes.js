@@ -16,6 +16,7 @@ const quoteContainer = {
     justifyContent: "center",
     alignItems: "center",
     height: 280
+
 }
 
 const Quotes = (props) => {
